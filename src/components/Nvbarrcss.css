@@ -1,0 +1,71 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body {
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #c4c4c4;
+font-family: "Carrois Gothic SC", sans-serif;
+margin: 0;
+padding: 0;
+font-weight: 400;
+overflow-x: hidden;
+
+}
+.backnav{
+    background-color: aqua;
+    height: 40%;
+    width: 40%;
+    padding: 0%;
+}
+
+.navigation {
+height: 100px;
+/* width: auto; */
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 60px;
+background-color: #ede9e9eb;
+position: sticky;
+position: -webkit-sticky;
+top: 0;
+}
+.navigation .logo{
+    gap: 40px;
+}
+.navigation  .menu{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.navigation  .login{
+    text-decoration-color: darkgray;
+    color:darkgray;
+    cursor: pointer;
+    text-decoration: none;
+ 
+
+}
+.navigation .menu li {
+list-style: none;
+text-decoration: none;
+margin-left: 1em;
+}
+.navigation  .menu a {
+/* font-family: Arial, Helvetica, sans-serif !important; */
+font-size: 19px ;
+font-weight: 200;
+background-color: transparent;
+border-radius: 20px;
+padding: 0.7em 1.6em;
+transition: background 300ms ease-in-out, color 100ms linear;
+text-decoration: none;
+}
+.navigation .menu :hover,
+.active {
+background-color: tomato !important;
+color: white !important;
+}
